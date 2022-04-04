@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    background: url("/Карточка/img/back.jpg");
+    font-family: Arial;
+    line-height: 1.5;
+}
+
+.title {
+    font-size: 40px;
+    text-align: center;
+    color: rgb(159, 74, 240);
+}
+
+.card {
+    width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgb(97, 38, 136);
+    background-color: #f7e5e5c2;
+}
+
+.card_img {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px; 
+}
+
+.card_title {
+    font-size: 25px;
+    text-align: center;
+    color: #B57EDC;
+}
+
+.card_subtitle {
+    font-size: 18px;
+    color: #22ac47da;
+}
+
+.card_list {
+    padding-left: 0;
+    list-style-position: inside;
+}
+
+.cool_url{
+    text-align: center;
+    color: rgb(245, 245, 245);
+}
+
+.shadow_text{
+    background-color: #0303031a;
+    width: 1500px;
+    margin: 30px auto;
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+    text-shadow: 1px 1px #732372, 1px -1px #732372, -1px 1px #732372, -1px -1px #732372, 3px 3px 6px rgba(0,0,0,.5);
+    text-indent: 15px;
+}
+
+
+
+.underline-one {
+	color: #069ed1; /* Цвет обычной ссылки */
+    position: relative;
+    cursor: pointer;
+    text-decoration: none; /* Убираем подчеркивание */
+}
+
+.underline-one:after {
+	content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px; /* Высота линии */
+    background-color: black; /* Цвет подчеркивания при исчезании линии*/
+    transition: width 0.5s; /* Время эффекта */
+}
+
+.underline-one:hover:after {
+	content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 2px; /* Высота линии */
+    background-color: red; /* Цвет подчеркивания при появлении линии*/
+    transition: width 0.5s;  /* Время эффекта */
+}
+
+
+.gain-center{
+    transition: 1s; /* Время эффекта */
+    text-align: center; 
+  }
+  .gain-center:hover {
+    transform: scale(1.2); /* Увеличиваем масштаб */
+  }
+
+
+  .gain-left {
+    transition: 1s; /* Время эффекта */
+    text-align: left; 
+  }
+  .gain-left:hover {
+    transform: scale(1.2); /* Увеличиваем масштаб */
+
+  }
+
+
+
+
+.url_animation {
+    color: #5a5a5a; /* Цвет текста */
+    background: #62a8db6b; /* Цвет фона */
+    border-radius: 10px;
+    padding: 10px; /* Поля вокруг текста */
+    transition: 1s linear; /* Время изменения */
+}
+.url_animation:hover {
+    color: #fff; /* Цвет текста */
+    background: #ed67b885; /* Цвет фона */
+    border-radius: 10px;
+}
+
+
+.title-example{
+    font-size: 1em; /* Размер шрифта */
+    color: #5a5a5a; /* Цвет заголовка */
+    text-align: center; /* Текст по центру */
+}
+/*  CSS код для линии над заголовком */
+.title-example:before {
+    content: '';
+    display: block;
+    height: 1px; /* Высота линии */
+    background: #f66d52; /* Цвет линии */
+    width: 150px; /* Ширина линии до наведения */
+    margin: 0 auto 10px; /* Отступ с боков по центру и снизу */
+	transition: 1s; /* Время, за которое линия возвращается после наведения */
+}
+.title-example:hover:before {
+    width: 250px; /* Ширина линии при наведении */
+	transition: ease-out 1s; /* Время, за которое линия расширяется при наведении */
+}
+/*  CSS код для линии под заголовком */
+.title-example:after {
+    content: '';
+    display: block;
+    height: 1px; /* Высота линии */
+    background: #f66d52; /* Цвет линии */
+    width: 150px; /* Ширина линии до наведения */
+    margin: 10px auto 0; /* Отступ с боков по центру и сверху */
+	transition: 1s; /* Время, за которое линия возвращается после наведения */
+}
+.title-example:hover:after {
+    width: 250px; /* Ширина линии при наведении */
+	transition: ease-out 1s; /* Время, за которое линия расширяется при наведении */
+}
+
+
+
+
+.hover-image-scale img {
+    transition: 1s; /* Время эффекта */
+    display: block; 
+}
+.hover-image-scale img:hover {
+    transform: scale(1.1); /* Увеличиваем масштаб */
+}
+       
