@@ -89,8 +89,8 @@ body {
     bottom: -3px;
     width: 0;
     height: 2px; /* Высота линии */
-    background-color: black; /* Цвет подчеркивания при исчезании линии*/
-    transition: width 0.5s; /* Время эффекта */
+    background-color: red; /* Цвет подчеркивания при исчезании линии*/
+    transition: width 0.75s; /* Время эффекта */
 }
 
 .underline-one:hover:after {
@@ -102,7 +102,7 @@ body {
     bottom: -3px;
     height: 2px; /* Высота линии */
     background-color: red; /* Цвет подчеркивания при появлении линии*/
-    transition: width 0.5s;  /* Время эффекта */
+    transition: width 0.75s;  /* Время эффекта */
 }
 
 
