@@ -180,3 +180,27 @@ body {
     transform: scale(1.1); /* Увеличиваем масштаб */
 }
        
+@media only screen and (max-width : 992px) {
+  .content{max-width: none; width: 100%;}
+  .sidebar1{max-width: none; width: 100%;}
+  blockquote{margin:10px;}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+  .content{max-width: none; width: 100%;}
+  .sidebar1{max-width: none; width: 100%;}
+  blockquote{margin:10px;}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+  .content{max-width: none; width: 100%;}
+  .sidebar1{max-width: none; width: 100%;}
+  blockquote{margin:10px;}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
